@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    box-sizing: border-box;
+    color: #020001;
+}
+
+.portfolio {
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.animate {
+    font-size: 28px;
+    font-weight: 600;
+    font-style: initial;
+    text-transform: uppercase;
+}
+
+a {
+    color: rgb(55, 12, 246);
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+
+.container {
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    padding: 0rem;
+    background-color: none;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    /* this is main imp lne for making column 2 divide  */
+
+}
+
+@media only screen and(max-width: 768px) {
+    .container {
+        width: 100%;
+        grid-template-columns: 1fr;
+        padding: 2rem;
+        gap: 7rem;
+    }
+
+    .portfolio {
+        width: 100%;
+        grid-template-columns: 1fr;
+        gap: 7rem;
+    }
+
+}
+
+.profile {
+    grid-column: 1/-1;
+    margin-bottom: 1rem;
+}
+
+/*  this is ABOUT THE PROFILE  */
+.profile_container {
+    display: flex;
+    gap: 1rem;
+
+}
+
+.profile_name {
+    margin-top: 30px;
+    margin-left: 30px;
+    background-size: cover;
+    padding: 5px;
+}
+
+.profile_title {
+    font-size: 21px;
+    margin-top: 15px;
+    font-weight: 800;
+    font-style: bold;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+body {
+    /* background: radial-gradient(circle, rgb(211 235 191) 0%, rgb(246 242 242) 39% , rgb(230 214 214) 80%, rgb(233 202 202) 100%); */
+    background-color: rgb(230 230 236);
+}
+
+.profile_image {
+    border-radius: 100px;
+    max-width: 300px;
+
+}
+
+img {
+    margin-top: 20px;
+    height: 159px;
+    width: 164px;
+    border-radius: 97px;
+    border: none;
+}
+
+.download {
+    color: rgb(45, 34, 34);
+    font-style: normal;
+    margin-top: 1rem;
+}
+
+/*  Group-1 */
+.group-1 {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+/*  expertise  */
+.title {
+    margin-left: 1.5rem;
+    text-transform: uppercase;
+    font-style: normal;
+}
+#main{
+    margin-left: 0.3rem;
+}
+
+.social {
+    margin-left: 2rem;
+    color: red;
+}
+
+.github {
+    font-size: 10px;
+    gap: 1rem;
+}
+
+.skillist {
+    margin-left: 2rem;
+    margin-top: 1rem;
+
+}
+
+.skills {
+    margin-left: 2rem;
+}
+
+.description {
+    margin-left: 3rem;
+    margin-top: 1rem;
+    margin: 1rem;
+}
+
+/* Links  */
+.ref {
+    margin-left: 2rem;
+    margin-top: 0.1rem;
+}
+
+.git {
+    margin-top: 1rem;
+}
+
+/* EDUCATION */
+.education {
+    margin-left: 1rem;
+}
+
+.edu-item {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+/* this is about the skills  */
+.skilldata {
+    margin-top: 1rem;
+}
+
+/* certification */
+.certification {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.certi-title {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+/*  THIS IS ABOUT THE LANGUAGE  */
+.language {
+    margin-top: 1rem;
+    margin-left: 0.8rem;
+}
+
+.lang-title {
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+}
+
+hr.new5 {
+    margin-top: 5px;
+    border: 7px solid green;
+    border-radius: 5px;
+    width: 70%;
+}
+
+hr.new6 {
+    margin-top: 5px;
+    border: 7px solid green;
+    border-radius: 5px;
+    width: 80%;
+}
+
+/*  THIS IS ABOUT THE GROUP-2 */
+.group-2 {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+
+}
+
+/*  projects  */
+.page {
+    margin-top: 1rem;
+}
+
+.pre-title {
+    margin-top: 0.4rem;
+}
+
+/*  INTEREST  */
+.interest {
+    margin-top: 1rem;
+    font-style: normal;
+}
+
+.int {
+    margin-top: 0.7rem;
+}
+
+/*  STRENGTH */
+.strength {
+    margin-top: 1rem;
+}
+
+.stren {
+    margin-top: 0.7rem;
+}
+
+.plan {
+    margin-top: 0.2rem;
+}
